@@ -29,7 +29,7 @@ export default function BabyCare() {
               Welcome to Taxmainder, where we specialize in providing top-notch public company registration services. 
               Going public can be a major milestone for a company, offering access to new capital, increased visibility and credibility,
                and expanded opportunities for growth and expansion. However, the process can be complex and overwhelming, with a range of legal 
-               and regulatory requirements to navigate. That's where we come in. Our experienced team of professionals is here to guide you through
+               and regulatory requirements to navigate. That is where we come in. Our experienced team of professionals is here to guide you through
                 every step of the public company registration process, providing expert guidance and support to help ensure your success. 
               Let us help you unlock the potential of your business and take your company to the next level.
               </p>
@@ -37,7 +37,7 @@ export default function BabyCare() {
               <p>
               Public company registration is the process by which a private company becomes a publicly traded company, selling shares of stock to the public
               through an initial public offering (IPO) or other public offering. This allows the company to raise capital from a wider pool of investors,
-              while also providing liquidity for existing shareholders. Going public can also enhance a company's visibility and credibility, potentially 
+              while also providing liquidity for existing shareholders. Going public can also enhance a company visibility and credibility, potentially 
               opening up new opportunities for growth and expansion.
               However, the public company registration process is complex and highly regulated. Companies must comply with a range of legal and 
               regulatory requirements, including filing a registration statement with the Securities and Exchange Commission (SEC), engaging an underwriter,

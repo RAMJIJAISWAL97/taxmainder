@@ -36,7 +36,7 @@ export default function BabyCare() {
                     <li>
                     Global Reach
                     </li>
-                    <p> With an IEC, you can conduct business with clients and suppliers from all over the world, increasing your business's reach and potential. </p>
+                    <p> With an IEC, you can conduct business with clients and suppliers from all over the world, increasing your business reach and potential. </p>
                     <li>
                     Avail Benefits
                     </li>
@@ -99,7 +99,7 @@ export default function BabyCare() {
                     </p>
                   </ol>
                   <p>
-                  Don't let the process of IEC registration be a barrier to your import-export business's growth. Contact us today to take advantage of our professional services and start your IEC registration process today.
+                  Don't let the process of IEC registration be a barrier to your import-export business growth. Contact us today to take advantage of our professional services and start your IEC registration process today.
                   </p>
               </div>
               <div className={styles.right}>

@@ -35,7 +35,7 @@ export default function AboutUs() {
           <p>
             Our main motto is to satisfy our Customers to the best of our
             ability and we endeavor to regularly improve our service quality by
-            fulfill the changing requirements of our client's loved ones. We
+            fulfill the changing requirements of our client loved ones. We
             used to provide trained personal and best Caretaker services in
             Noida & aims to be the best caretaker service provider in Noida. Our
             employees are selected and being employed directly by us and we used
@@ -46,7 +46,7 @@ export default function AboutUs() {
             with the best possible price, and we used to provide best possible
             Patient Caretaker in Noida at your door step. Our Senior citizen
             Caretaker in Noida services is one of the best Caretaker services in
-            Noida. In Today's lifestyle, a working woman wants to the best
+            Noida. In Today lifestyle, a working woman wants to the best
             Caretaker or baby sitter for their new born baby. Mother Touch
             Services is Noida most reputed Caretaker, housekeeping and maid
             services provider organization. New Born baby needs to handle very
@@ -75,7 +75,7 @@ export default function AboutUs() {
                 care for your children. Our Nannie does all types of work like
                 nurse duties, which usually involves looking after children and
                 their belongings. Our New bore baby care in Noida services does
-                children's laundry&cooking, keeping bedrooms.
+                children s laundry&cooking, keeping bedrooms.
               </p>
             </div>
             <div className={styles.right}>

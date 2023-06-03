@@ -30,7 +30,7 @@ export default function Home() {
       </div> */}
       <div className={`${styles.whyChooseWrapper} ${styles.radialBorder}`}>
         <Headings
-          title="CUSTOMER'S PROBLEM IS OUR PROBLEM"
+          title="CUSTOMER PROBLEM IS OUR PROBLEM"
           content="WHY CHOOSE US?"
         />
         <div className={styles.whyChooseContainer}>
@@ -54,7 +54,7 @@ export default function Home() {
             <div className={styles.sideContentContainer}>
               <h4>Expert in industry</h4>
               <p>
-                Taxmainder's expert are highly qualified and having 7+ years of professional experience in Business Registration, IPR, Government Registration, Compliance, Tax and Accounting Services etc. 
+              Expert at Taxmainder are highly qualified and having 7+ years of professional experience in Business Registration, IPR, Government Registration, Compliance, Tax and Accounting Services etc. 
               </p>
               <h5>Experience makes a person Expert.</h5>
             </div>
@@ -73,7 +73,7 @@ export default function Home() {
             <div className={styles.sideContentContainer}>
               <h4>Customer Satisfaction</h4>
               <p>
-                Customer's problem is our problem. We provide Expert guidance to our customers.
+                Customer problem is our problem. We provide Expert guidance to our customers.
                 We provide 24*7 customer support to our customers.
               </p>
             </div>

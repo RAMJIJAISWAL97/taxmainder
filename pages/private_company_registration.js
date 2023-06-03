@@ -74,7 +74,7 @@ export default function BabyCare() {
                   <p>We offer competitive pricing for our private company registration services, so you can get the support you need without breaking the bank.</p>
 
                 <h4><li>Ongoing Support</li></h4>
-                  <p>Our commitment to our clients doesn't end with the private company registration process. We offer ongoing support to help you stay compliant with all legal requirements and ensure your business's ongoing success.</p>
+                  <p>Our commitment to our clients doesn't end with the private company registration process. We offer ongoing support to help you stay compliant with all legal requirements and ensure your business ongoing success.</p>
 
               </ol>
               <h4>Contact us today to learn more about our private company registration services and how we can help you achieve your business goals.</h4>

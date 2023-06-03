@@ -48,7 +48,7 @@ export default function BabyCare() {
 
                 <li>Personalized Services
                 </li>
-                <p>We understand that every client's needs are unique. That's why we provide personalized services that are tailored to your specific requirements.
+                <p>We understand that every client needs are unique. That is why we provide personalized services that are tailored to your specific requirements.
                 </p>
 
                 <li>Competitive Pricing

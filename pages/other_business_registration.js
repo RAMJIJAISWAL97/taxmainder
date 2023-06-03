@@ -37,7 +37,7 @@ export default function BabyCare() {
                 <li>Partnership Firm</li>
                 <li>One Person Company (OPC)</li>
                 <li>Non-Profit Organizations</li>
-                <li>NGO's Registraion</li>
+                <li>NGO Registraion</li>
               </ol>
 
               <p>

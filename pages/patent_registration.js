@@ -52,7 +52,7 @@ export default function BabyCare() {
                     Protect Your Investment
                     </li>
                     <p>
-                    If you've invested time, money, and effort into creating a new invention, it's important to protect your investment. A patent provides legal protection for your invention and ensures that you have exclusive rights to it.
+                    If you've invested time, money, and effort into creating a new invention, it is important to protect your investment. A patent provides legal protection for your invention and ensures that you have exclusive rights to it.
                     </p>
                     <li>
                     Increase Your Business Value
@@ -105,7 +105,7 @@ export default function BabyCare() {
                   <ol>
                     <li>
                     Patent Search
-                    </li> <p>Before filing a patent application, it's important to conduct a thorough search to ensure that your invention is new and non-obvious. We offer comprehensive patent search services to help you determine the novelty and patentability of your invention.</p>
+                    </li> <p>Before filing a patent application, it is important to conduct a thorough search to ensure that your invention is new and non-obvious. We offer comprehensive patent search services to help you determine the novelty and patentability of your invention.</p>
                     <li>
                     Patent Drafting
                     </li><p>Our team of patent experts can help you draft a strong patent application that clearly and accurately describes your invention and its unique features. We work closely with you to understand your invention and create a patent application that meets all legal and regulatory requirements.</p>
@@ -117,7 +117,7 @@ export default function BabyCare() {
                     </li><p>We provide patent prosecution services to help you navigate the complex process of obtaining a patent. Our experts work closely with patent examiners to address any issues or objections that arise during the examination process and ensure that your patent is granted.</p>
                     <li>
                     Patent Maintenance
-                    </li><p>Once your patent is granted, it's important to maintain it to ensure that you continue to have exclusive rights to your invention. We provide patent maintenance services to help you stay up-to-date with maintenance fees, renewal deadlines, and other legal requirements.</p>
+                    </li><p>Once your patent is granted, it is important to maintain it to ensure that you continue to have exclusive rights to your invention. We provide patent maintenance services to help you stay up-to-date with maintenance fees, renewal deadlines, and other legal requirements.</p>
                   </ol>
               </div>
 

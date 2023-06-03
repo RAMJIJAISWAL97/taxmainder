@@ -25,7 +25,7 @@ export default function BabyCare() {
               <div className={`${styles.left} ${styles.flex1}`}>
                 <h4>International Organization for Standardization</h4>
                 <p>
-                ISO certification is becoming increasingly important for businesses that want to remain competitive in today's market. It demonstrates a company's commitment to quality, safety, and environmental responsibility. At our company, we offer ISO certification services that help businesses achieve their goals and improve their operations.
+                ISO certification is becoming increasingly important for businesses that want to remain competitive in today market. It demonstrates a company commitment to quality, safety, and environmental responsibility. At our company, we offer ISO certification services that help businesses achieve their goals and improve their operations.
                 </p><p>
                 ISO (International Organization for Standardization) certification is not mandatory for any business in India.
                  However, certain industries and businesses may choose to obtain ISO certification to demonstrate their commitment to quality management systems and standards.

@@ -90,7 +90,7 @@ export default function BabyCare() {
                     <li>
                     Closing Accounts.
                     </li> <p>
-                    We will help you in closing the company's bank accounts, settling any outstanding debts, and making the final payments to employees and creditors.
+                    We will help you in closing the bank account of Companies, settling any outstanding debts, and making the final payments to employees and creditors.
                     </p>
                     <li>
                     Final Filings

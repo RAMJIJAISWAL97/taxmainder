@@ -55,7 +55,7 @@ export default function BabyCare() {
                     LLP Compliance Audit
                     </li>
                     <p>
-                    Our LLP compliance audit services can help you identify any areas of non-compliance in your LLP and develop strategies to address them. Our team will review your LLP's financial records, legal documents, and other relevant information to ensure that you are meeting all applicable regulations.
+                    Our LLP compliance audit services can help you identify any areas of non-compliance in your LLP and develop strategies to address them. Our team will review your LLP financial records, legal documents, and other relevant information to ensure that you are meeting all applicable regulations.
                     </p>
 
                     <li>
@@ -66,7 +66,7 @@ export default function BabyCare() {
                     </p>
                 </ol>
                 <p>
-                At our firm, we understand that LLP-related compliance can be a complex and time-consuming process. That's why we are here to help you meet all your legal obligations and stay compliant with all applicable regulations. Contact us today to learn more about our LLP-related compliance services and how we can help you ensure your LLP's compliance.
+                At our firm, we understand that LLP-related compliance can be a complex and time-consuming process. That is why we are here to help you meet all your legal obligations and stay compliant with all applicable regulations. Contact us today to learn more about our LLP-related compliance services and how we can help you ensure your LLP compliance.
                 </p>
               </div>
               

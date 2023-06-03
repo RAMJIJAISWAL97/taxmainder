@@ -26,7 +26,7 @@ export default function BabyCare() {
                 <p>
                 Welcome to Taxmainder, your one-stop solution for all company compliance services.
 
-                We understand that compliance can be a daunting task, and with ever-changing regulations, it can be challenging to stay up-to-date. That's why we're here to help you with all your compliance needs, from company registration to annual compliance filings.
+                We understand that compliance can be a daunting task, and with ever-changing regulations, it can be challenging to stay up-to-date. That is why we're here to help you with all your compliance needs, from company registration to annual compliance filings.
 
                 Our team of experts has years of experience in handling compliance-related matters for companies across various industries. We provide customized solutions that cater to your specific needs, ensuring that your business complies with all the relevant laws and regulations.
                 </p>

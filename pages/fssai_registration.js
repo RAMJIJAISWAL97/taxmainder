@@ -54,7 +54,7 @@ export default function BabyCare() {
               <li>
               Avoids legal issues
               </li>
-              <p> Failure to obtain FSSAI registration can result in legal issues, including hefty fines and imprisonment. Therefore, it's crucial to get your FSSAI license to avoid any legal troubles. </p>
+              <p> Failure to obtain FSSAI registration can result in legal issues, including hefty fines and imprisonment. Therefore, it is crucial to get your FSSAI license to avoid any legal troubles. </p>
             </ol>
           </p>
 
@@ -75,7 +75,7 @@ export default function BabyCare() {
               <p> We offer competitive pricing for our FSSAI registration services, ensuring that you get the best value for your money. </p>
             </ol>
           </p>
-          <p>Getting your FSSAI registration is crucial for starting or running a food business in India. With [Your Company Name]'s expert services, you can obtain your FSSAI license hassle-free and ensure that your food products meet the safety and quality standards set by the regulatory authority. Contact us today to get started!</p>
+          <p>Getting your FSSAI registration is crucial for starting or running a food business in India. With Expert of taxmainder services, you can obtain your FSSAI license hassle-free and ensure that your food products meet the safety and quality standards set by the regulatory authority. Contact us today to get started!</p>
         </div>
 
         <div className="links">

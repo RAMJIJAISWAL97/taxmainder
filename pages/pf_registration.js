@@ -81,7 +81,7 @@ export default function BabyCare() {
                 <li>
                 Stay compliant with the law
                 </li>
-                <p>Registering for the PF scheme is not just good for your employees, it's also a legal requirement for companies with 20 or more employees. By staying compliant with the law, you can avoid legal complications and focus on growing your business.
+                <p>Registering for the PF scheme is not just good for your employees, it is also a legal requirement for companies with 20 or more employees. By staying compliant with the law, you can avoid legal complications and focus on growing your business.
                 </p>
                 <li>
                 Save on taxes

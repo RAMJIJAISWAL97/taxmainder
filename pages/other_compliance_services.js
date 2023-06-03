@@ -72,7 +72,7 @@ export default function BabyCare() {
                     Intellectual Property Compliance
                     </li>
                     <p> 
-                    Intellectual property (IP) is a valuable asset for any business, and it's important to ensure that your IP rights are protected. We can help you with a range of IP compliance issues, including:
+                    Intellectual property (IP) is a valuable asset for any business, and it is important to ensure that your IP rights are protected. We can help you with a range of IP compliance issues, including:
                     </p> 
                         <ul>
                             <li>
@@ -130,7 +130,7 @@ export default function BabyCare() {
           </div>
 
           <p> 
-            At Taxmainder, we understand the challenges of staying compliant with the ever-changing regulatory landscape. That's why we offer a comprehensive range of compliance and other services to help you manage your obligations and protect your business. Contact us today to learn more about how we can help you.
+            At Taxmainder, we understand the challenges of staying compliant with the ever-changing regulatory landscape. That is why we offer a comprehensive range of compliance and other services to help you manage your obligations and protect your business. Contact us today to learn more about how we can help you.
         </p>
 
         </div>

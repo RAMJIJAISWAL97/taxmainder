@@ -95,7 +95,7 @@ export default function BabyCare() {
               <div className={`${styles.left} ${styles.flex1}`}>
                 <h4>Our Copyright Registration Process</h4>
                 <p>
-                Our copyright registration process is designed to be simple and straightforward. Here's how it works:
+                Our copyright registration process is designed to be simple and straightforward. How it works:
                 </p>
                   <ol>
                     <li>
@@ -120,7 +120,7 @@ export default function BabyCare() {
                   
         <p> 
           At Trademark, we understand that your creative works are valuable and deserve legal protection. 
-          That's why we offer copyright registration services to help you protect your intellectual property. 
+          That is why we offer copyright registration services to help you protect your intellectual property. 
           Our team of experienced professionals can guide you through the copyright registration process, 
           ensuring that your work is properly registered and protected.
         </p>

@@ -80,7 +80,7 @@ export default function BabyCare() {
                   </p>
                    <li> Personalized Services
                   </li>
-                  <p> We understand that every client's needs are unique. That's why we provide personalized services that are tailored to your specific requirements.
+                  <p> We understand the needs every client. That is why we provide personalized services that are tailored to your specific requirements.
                   </p>
                   <li> Competitive Pricing
                   </li>

@@ -127,7 +127,7 @@ export default function BabyCare() {
                   Proof of appointment of the authorized signatory
                   </li>
                   <li>
-                  For proprietorship firms, proof of the proprietor's identity and address
+                  For proprietorship firms, proof of the proprietor identity and address
                   </li>
                 </ol>
             </div>
@@ -164,7 +164,7 @@ export default function BabyCare() {
                   Testimonials
                   </li>
                   <p>
-                  Don't just take our word for it - here's what some of our satisfied customers have to say about our service
+                  Don't just take our word for it - here is what some of our satisfied customers have to say about our service
                   </p>
                   <li>
                   Competitive Price
