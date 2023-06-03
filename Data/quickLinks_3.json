@@ -1,0 +1,26 @@
+[
+    {
+      "content": "Patent Registration",
+      "href": "/patent_registration"
+    },
+    {
+      "content": "Copyright Registration",
+      "href": "/copyright_registration"
+    },
+    {
+      "content": "Trademark Registration",
+      "href": "/trademark_registration"
+    },      
+    {
+      "content": "Trademark Renewal",
+      "href": "/trademark_renewal"
+    },
+    {
+      "content": "Trademark Objection",
+      "href": "/trademark_objection"
+    },
+    {
+      "content": "Other IPR Services",
+      "href": "/other_ipr_services"
+    }
+  ]

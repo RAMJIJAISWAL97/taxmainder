@@ -1,0 +1,138 @@
+[
+  {
+    "title": "Home",
+    "path": "/"
+  },
+  {
+    "title": "Start New Business",
+    "path": "/services",
+    "submenu": [
+      {
+        "title": "One Person Company Registration",
+        "path": "/one_person_company_registration"
+      },
+      {
+        "title": "Public Company Registration",
+        "path": "/public_company_registration"
+      },
+      {
+        "title": "Private Company Registration",
+        "path": "/private_company_registration"
+      },  
+      {
+        "title": "LLP Registration",
+        "path": "/limited_liability_parterneship" 
+      },  
+      {
+        "title": "Other Business Registration",
+        "path": "/other_business_registration"
+      }
+    ]
+  },
+  {
+    "title": "Governement Registration",
+    "path": "/career",
+    "submenu":[
+      {
+        "title": "ISO Registration",
+        "path": "/iso_registration"
+      },
+      {
+        "title": "FSSAI Registration",
+        "path": "/fssai_registration"
+      },
+      {
+        "title": "Import Export Code",
+        "path": "/import_export_code"
+      },      
+      {
+        "title": "GST Registration",
+        "path": "/gst_registration"
+      },
+      {
+        "title": "PF Registration",
+        "path": "/pf_registration"
+      },
+      {
+        "title": "Digital Signature Certificate",
+        "path": "/digital_signature_certificate"
+      },
+      {
+        "title": "Other Registration Services",
+        "path": "/other_services"
+      }
+    ]
+  },
+  {
+    "title": "IPR (Intellectual Proprty Right)",
+    "path": "/about-us",
+    "submenu":[
+      {
+        "title": "Patent Registration",
+        "path": "/patent_registration"
+      },
+      {
+        "title": "Copyright Registration",
+        "path": "/copyright_registration"
+      },
+      {
+        "title": "Trademark Registration",
+        "path": "/trademark_registration"
+      },      
+      {
+        "title": "Trademark Renewal",
+        "path": "/trademark_renewal"
+      },
+      {
+        "title": "Trademark Objection",
+        "path": "/trademark_objection"
+      },
+      {
+        "title": "Other IPR Services",
+        "path": "/other_ipr_services"
+      }
+    ]
+  },
+  {
+    "title": "Tax/Complaince",
+    "path": "/our_customers",
+    "submenu":[
+      {
+        "title": "LLP Related Compliance",
+        "path": "/llp_related_compliance"
+      },
+      {
+        "title": "Company Compliance ",
+        "path": "/company_compliance"
+      },
+      {
+        "title": "Annual Complaince",
+        "path": "/annual_compliance"
+      },      
+      {
+        "title": "GST Return",
+        "path": "/gst_return"
+      },
+      {
+        "title": "IT Return",
+        "path": "/it_return"
+      },
+      {
+        "title": "Company Closure",
+        "path": "/company_closure"
+      },
+      {
+        "title": "Other Services",
+        "path": "/other_compliance_services"
+      }
+    ]
+  },
+  {
+    "title": "Career",
+    "path": "/career"
+  },
+  {
+    "title": "Contact Us",
+    "path": "/contact_us"
+  }
+]

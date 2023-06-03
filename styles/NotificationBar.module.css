@@ -1,0 +1,16 @@
+.notificationWrapper {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.67);
+    height: auto;
+    padding: 1px 1px;
+    font-size: 1.0rem;
+    width: 100%;
+    color: #da1111;
+}
+
+.myDiv {
+    border: 50px outset red;
+    background-color: rgb(230, 173, 176);
+    text-align: right;
+  }
+  

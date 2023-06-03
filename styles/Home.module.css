@@ -1,0 +1,159 @@
+/**
+ * Mobile first css
+ */
+
+.topSection {
+  background-color: #f9f9f9;
+  padding-top: 40px;
+}
+
+.mainSection {
+  width: 90%;
+  margin: 20px auto;
+  min-height: 550px;
+}
+
+.radialBorder {
+  border-bottom-right-radius: 250px;
+}
+
+.servicesWrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 4fr);
+  grid-gap: 40px;
+}
+
+.detailedWrapper {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+
+.servicesContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 6fr);
+  padding: 3rem 0px;
+}
+
+.leftContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 6fr);
+  grid-gap: 40px;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+}
+
+.whyChooseWrapper {
+  background-color: #f9f9f9;
+  min-height: 600px;
+  padding: 15px 20px;
+}
+
+.whyChooseWrapper.radialBorder {
+  border-top-left-radius: 250px;
+}
+
+
+.whyChooseContainer {
+  width: 90%;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 4fr);
+  grid-gap: 40px;
+}
+
+.sideContent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.ruler {
+  height: 8px;
+  width: 100px;
+  background: #fff;
+  border-radius: 20px;
+}
+
+.sides1 {
+  padding-left: 3%;
+}
+
+.sides2 {
+  padding-left: 7%;
+}
+
+.sides3 {
+  padding-left: 10%;
+}
+
+.sideContent:hover h1 {
+  color: #c2af0f
+}
+
+.sideContent h1 {
+  font-size: 5rem;
+  margin: 10px 0px;
+}
+
+.sideContent h4 {
+  margin: 10px 0px;
+}
+
+.sideContent p {
+  font-weight: 200;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.sideContentContainer {
+  padding-left: 2rem;
+}
+
+/**
+ * Desktop css
+ */
+
+@media screen and (max-width: 600px) {
+
+  .servicesWrapper,
+  .servicesContainer,
+  .leftContainer,
+  .whyChooseContainer {
+    grid-template-columns: auto;
+  }
+
+  .sides1 {
+    padding-left: 0;
+  }
+
+  .sides2 {
+    padding-left: 0;
+  }
+
+  .sides3 {
+    padding-left: 0;
+  }
+}
+
+@media screen and (min-width: 601px) {
+
+  .servicesWrapper{
+    grid-template-columns: repeat(auto-fill, minmax(min(20rem, 100%), 1fr));
+  }
+  
+  .servicesContainer {
+    grid-template-columns: repeat(auto-fill, minmax(min(26rem, 100%), 1fr));
+  }
+  .leftContainer {
+    grid-template-columns: repeat(auto-fill, minmax(min(15rem, 100%), 1fr));
+  }
+
+  .whyChooseContainer {
+    grid-template-columns: repeat(auto-fill, minmax(min(20rem, 100%), 1fr));
+  }
+}

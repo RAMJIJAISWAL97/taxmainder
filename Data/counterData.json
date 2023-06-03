@@ -1,0 +1,28 @@
+{
+    "counts": [
+        {
+            "id": "001",
+            "label": "SUCCESSFULL YEARS",
+            "number": "6",
+            "duration": "5"
+        },
+        {
+            "id": "002",
+            "label": "HAPPY CUSTOMERS",
+            "number": "1000+",
+            "duration": "5"
+        },
+        {
+            "id": "003",
+            "label": "SERVICES",
+            "number": "20+",
+            "duration": "5"
+        },
+        {
+            "id": "004",
+            "label": "EXPERTS",
+            "number": "210",
+            "duration": "5"
+        }
+    ]
+}

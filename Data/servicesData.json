@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Company Registraion",
+        "content": "Start your business journey with confidence, Make your business official, Protect your assets and brand, Expert guidance for seamless company registration, Don't let legal hurdles hold you back, Register your company as a legal entity...",
+        "buttonTitle": "View More",
+        "imageSrc": "/img/company_registration.jpg",
+        "imageAlt": "Baby Care"
+    },
+    {
+        "title": "Government Certification",
+        "content": "Don't let bureaucracy slow you down, Expert guidance for navigating government regulations, Streamline your business's government registrations, Avoid headaches and save time, let us handle your government registrations....",
+        "buttonTitle": "View More",
+        "imageSrc": "/img/iso_certification_2.jpg",
+        "imageAlt": "Baby Care"
+    },
+    {
+        "title": "Import Export Code",
+        "content": "Unlock new markets and grow your business, Expand your business globally, Get the documents you need to start importing and exporting, Simplify the process of importing and exporting, let us handle your IEC registration...",
+        "buttonTitle": "View More",
+        "imageSrc": "/img/import_export_code.jpg",
+        "imageAlt": "Baby Care"
+    },
+    {
+        "title": "Compliance",
+        "content": "Avoid fines and legal headaches, Expert guidance for navigating regulations and requirements, Simplify compliance, Don't let compliance hold you back, Stay ahead of the game let us handle your compliance needs...",
+        "buttonTitle": "View More",
+        "imageSrc": "/img/company_closure_1.jpg",
+        "imageAlt": "Baby Care"
+    },
+    {
+        "title": "Intellectual Property Right",
+        "content": "Protect your ideas and innovation, Maximize the value of your intangible assets, Expert guidance for navigating the complex world of intellectual property law, Secure your brand, inventions, and designs, we'll help you register and protect your IPR...",
+        "buttonTitle": "View More",
+        "imageSrc": "/img/other_business_registration.jpg",
+        "imageAlt": "Baby Care"
+    },
+    {
+        "title": "Tax Planning",
+        "content": "Maximize your savings and minimize your tax liability, Stay compliant and save money, Expert guidance for minimizing your tax burden, Simplify tax planning, Invest in smart tax planning, Minimize your risk and maximize your savings, let us help you with expert tax planning...",
+        "buttonTitle": "View More",
+        "imageSrc": "/img/income_tax.jpg",
+        "imageAlt": "Baby Care"
+    }
+]
