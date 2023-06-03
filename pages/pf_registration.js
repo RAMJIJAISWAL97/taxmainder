@@ -106,7 +106,7 @@ export default function BabyCare() {
               <h5>The following are the steps to register for the PF scheme:</h5>
               <ol>
                 <li>
-                Visit the EPFO portal and select the "Establishment Registration" option.
+                Visit the EPFO portal and select the Establishment Registration option.
                 </li>
                 <li>
                 Enter the required details, such as company name, address, PAN, and Aadhaar number.

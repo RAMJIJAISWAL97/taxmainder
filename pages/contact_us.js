@@ -17,7 +17,7 @@ export default function BabyCare() {
           />
         </picture>
 
-        <a href="tel:+919839887300" class="phone-icon"><i className="fa fa-phone"></i>+919839887300</a>
+        <a href="tel:+919839887300" className="phone-icon"><i className="fa fa-phone"></i>+919839887300</a>
 
       </div>
       
