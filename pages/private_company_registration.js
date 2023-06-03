@@ -25,7 +25,7 @@ export default function BabyCare() {
           <p>
           Welcome to Taxmainder, your one-stop-shop for private company registration services. We understand that starting a business can be a complex process, which is why we offer a range of services to help simplify the private company registration process and get your business up and running.
           <br></br>
-          Our team of experienced professionals can provide you with the guidance and support you need to register your private company quickly and efficiently. Whether you're looking to incorporate a new company, or need to update your existing company registration details, we have the expertise and knowledge to help you achieve your goals.
+          Our team of experienced professionals can provide you with the guidance and support you need to register your private company quickly and efficiently. Whether you are looking to incorporate a new company, or need to update your existing company registration details, we have the expertise and knowledge to help you achieve your goals.
           </p>
         <div className={styles.miniContent}>
             <div className={`${styles.left} ${styles.flex1}`}>
@@ -74,7 +74,7 @@ export default function BabyCare() {
                   <p>We offer competitive pricing for our private company registration services, so you can get the support you need without breaking the bank.</p>
 
                 <h4><li>Ongoing Support</li></h4>
-                  <p>Our commitment to our clients doesn't end with the private company registration process. We offer ongoing support to help you stay compliant with all legal requirements and ensure your business ongoing success.</p>
+                  <p>Our commitment to our clients does not end with the private company registration process. We offer ongoing support to help you stay compliant with all legal requirements and ensure your business ongoing success.</p>
 
               </ol>
               <h4>Contact us today to learn more about our private company registration services and how we can help you achieve your business goals.</h4>

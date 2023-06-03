@@ -25,7 +25,7 @@ export default function BabyCare() {
               <div className={`${styles.left} ${styles.flex1}`}>
                 <h4>Import Export Code</h4>
                 <p>
-                If you're planning to start an import-export business in India, obtaining an Import Export Code (IEC) is mandatory. 
+                If you are planning to start an import-export business in India, obtaining an Import Export Code (IEC) is mandatory. 
                 The IEC is a unique 10-digit code issued by the Directorate General of Foreign Trade (DGFT) and is necessary for importers and
                  exporters to conduct business in India. We offer professional services to help you easily obtain your IEC and start your import-export business.
                 </p>
@@ -99,7 +99,7 @@ export default function BabyCare() {
                     </p>
                   </ol>
                   <p>
-                  Don't let the process of IEC registration be a barrier to your import-export business growth. Contact us today to take advantage of our professional services and start your IEC registration process today.
+                  Do not let the process of IEC registration be a barrier to your import-export business growth. Contact us today to take advantage of our professional services and start your IEC registration process today.
                   </p>
               </div>
               <div className={styles.right}>

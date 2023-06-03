@@ -42,7 +42,7 @@ export default function Testimonials() {
         <div className="myCarousel">
           <h3>Founder</h3>
           <p>
-            We love to understnd our customer's Problema and Solve them!
+            We love to understnd our Problem and Solve them!
           </p>
         </div>
       </div>

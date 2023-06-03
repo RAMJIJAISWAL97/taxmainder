@@ -49,7 +49,7 @@ export default function BabyCare() {
               professionals is here to guide you through the complex legal landscape of running a business, and ensure that you are always in compliance with all relevant regulations and laws.
               </p>
               <p>
-              Don't let the legal and financial aspects of running a business hold you back. Contact us today to learn more about our services and how we can help you achieve success.
+              Do not let the legal and financial aspects of running a business hold you back. Contact us today to learn more about our services and how we can help you achieve success.
               </p>
 
             </div>

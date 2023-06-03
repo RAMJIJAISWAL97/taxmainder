@@ -28,7 +28,7 @@ export default function BabyCare() {
               <p>
               Starting a new business is an exciting venture, but it can be overwhelming.
               Our new company registration services are tailored to meet the unique needs of each of our clients.
-              We'll guide you through the process and ensure that your new business is fully compliant with all legal requirements.
+              We will guide you through the process and ensure that your new business is fully compliant with all legal requirements.
               Let us simplify the process of new company registration and get your business off the ground smoothly and efficiently.
               </p>
             </div>
@@ -45,7 +45,7 @@ export default function BabyCare() {
           </div>
           <div className={styles.miniContent}>
             <div className={`${styles.left} ${styles.flex1}`}>
-              <h2><li>Don't let the paperwork and legal formalities of new company registration hold you back</li></h2>
+              <h2><li>Do not let the paperwork and legal formalities of new company registration hold you back</li></h2>
               <p>
               Starting a new company involves a lot of paperwork and legal formalities that can be complex and time-consuming. 
               There are various legal requirements and regulations that must be met to register a new company, 

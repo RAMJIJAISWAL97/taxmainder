@@ -73,10 +73,10 @@ export default function BabyCare() {
               <h5>The following are several benefits to Employee and Employer both :</h5>
               <ol>
                 <li>
-                Secure your employees' future
+                Secure your employees future
                 </li> 
                 <p>
-                By registering for the Provident Fund (PF) scheme, you are taking a crucial step towards securing your employees' future. The PF scheme provides retirement benefits, medical benefits, housing benefits, and education benefits to employees, ensuring their financial security and well-being.
+                By registering for the Provident Fund (PF) scheme, you are taking a crucial step towards securing your employees future. The PF scheme provides retirement benefits, medical benefits, housing benefits, and education benefits to employees, ensuring their financial security and well-being.
                 </p>
                 <li>
                 Stay compliant with the law
@@ -87,7 +87,7 @@ export default function BabyCare() {
                 Save on taxes
                 </li>
                 <p>
-                Employers can claim a tax deduction for their contributions to the PF scheme, reducing their tax liability. By registering for the PF scheme, you are not just investing in your employees' future, but also saving on taxes.
+                Employers can claim a tax deduction for their contributions to the PF scheme, reducing their tax liability. By registering for the PF scheme, you are not just investing in your employees future, but also saving on taxes.
                 </p>
                 <li>
                 Hassle-free registration

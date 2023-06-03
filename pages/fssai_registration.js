@@ -50,7 +50,7 @@ export default function BabyCare() {
               <li>
               Ensures quality and safety
               </li>
-              <p> With FSSAI registration, you can ensure that your products meet the quality and safety standards set by the regulatory authority, thereby increasing your customers' trust in your brand. </p>
+              <p> With FSSAI registration, you can ensure that your products meet the quality and safety standards set by the regulatory authority, thereby increasing your customers trust in your brand. </p>
               <li>
               Avoids legal issues
               </li>

@@ -43,7 +43,7 @@ export default function BabyCare() {
                     <li>
                     Secure Your Invention
                     </li>
-                    <p> Don't let someone else steal your invention or idea. Get it patented and secure your rights to it. </p>
+                    <p> Do not let someone else steal your invention or idea. Get it patented and secure your rights to it. </p>
                     <li>
                     Gain a Competitive Advantage
                     </li>
@@ -52,7 +52,7 @@ export default function BabyCare() {
                     Protect Your Investment
                     </li>
                     <p>
-                    If you've invested time, money, and effort into creating a new invention, it is important to protect your investment. A patent provides legal protection for your invention and ensures that you have exclusive rights to it.
+                    If you have invested time, money, and effort into creating a new invention, it is important to protect your investment. A patent provides legal protection for your invention and ensures that you have exclusive rights to it.
                     </p>
                     <li>
                     Increase Your Business Value

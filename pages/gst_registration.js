@@ -152,19 +152,19 @@ export default function BabyCare() {
                   Expertise in GST
                   </li>
                   <p>
-                    Our team of experts has 8 years of experience in GST registration and related services. We stay up-to-date with the latest regulations and guidelines, so you can rest assured that your registration process will be compliant with all relevant laws. Whether you're a sole proprietor, partnership, or limited company, we have the knowledge and expertise to handle your GST registration with ease.
+                    Our team of experts has 8 years of experience in GST registration and related services. We stay up-to-date with the latest regulations and guidelines, so you can rest assured that your registration process will be compliant with all relevant laws. Whether you are a sole proprietor, partnership, or limited company, we have the knowledge and expertise to handle your GST registration with ease.
                   </p>
                   <li>
                   Post-Registration Support
                   </li>
                   <p>
-                  Once your GST registration is complete, we don't just stop there. We offer ongoing support to ensure that you stay compliant with all GST regulations. This includes assistance with filing GST returns, maintaining accurate records, and responding to any queries or concerns you may have. We're committed to building long-term relationships with our customers and supporting your success.
+                  Once your GST registration is complete, we do not just stop there. We offer ongoing support to ensure that you stay compliant with all GST regulations. This includes assistance with filing GST returns, maintaining accurate records, and responding to any queries or concerns you may have. We are committed to building long-term relationships with our customers and supporting your success.
                   </p>
                   <li>
                   Testimonials
                   </li>
                   <p>
-                  Don't just take our word for it - here is what some of our satisfied customers have to say about our service
+                  Do not just take our word for it - here is what some of our satisfied customers have to say about our service
                   </p>
                   <li>
                   Competitive Price
