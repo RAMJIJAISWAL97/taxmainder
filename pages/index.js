@@ -11,7 +11,6 @@ import { ParallaxBanner } from "react-scroll-parallax";
 import Counter from "components/Home/Counter";
 import data from "Data/counterData.json";
 import Intro from "components/Home/Intro";
-import MotherCare from "components/Home/MotherCare";
 import Testimonials from "components/Home/Testimonials";
 
 export default function Home() {
@@ -86,7 +85,6 @@ export default function Home() {
           <Counter key={count.id} data={count} />
         ))}
       </div>
-      <MotherCare />
       <Testimonials />
     </Layout>
   );
