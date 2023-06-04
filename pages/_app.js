@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }) {
 
         {/* <meta name="coverage" content="Worldwide" />
         <meta name="allow-search" content="yes" /> */}
-        <meta charSet="utf-8" />
+        {/* <meta charSet="utf-8" /> */}
         {/* <meta httpEquiv="X-UA-Compatible" content="IE=edge" /> */}
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         <link
