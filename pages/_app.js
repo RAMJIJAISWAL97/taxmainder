@@ -12,13 +12,16 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        {/* <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" /> */}
+        {/* <meta
+          name="viewport"
+          content="minimum-scale=1, initial-scale=1, width=device-width"
+        /> */}
         {/* PWA primary color */}
 
-        <meta name="coverage" content="Worldwide" />
-        <meta name="allow-search" content="yes" />
+        {/* <meta name="coverage" content="Worldwide" />
+        <meta name="allow-search" content="yes" /> */}
         <meta charSet="utf-8" />
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        {/* <meta httpEquiv="X-UA-Compatible" content="IE=edge" /> */}
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         <link
           rel="apple-touch-icon"
