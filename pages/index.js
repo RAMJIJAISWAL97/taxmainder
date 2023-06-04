@@ -1,4 +1,4 @@
-import Headings from "components/Headings";
+// import Headings from "components/Headings";
 import DetailedMotherServices from "components/Home/DetailedMotherServices";
 import Services from "components/Home/Services";
 import Footer from "Layout/Footer";
@@ -19,7 +19,7 @@ export default function Home() {
       <Intro />
        
       <div className={`${styles.topSection} ${styles.radialBorder}`}>
-        <Headings title="" content="An Overview of our Services"/>
+        {/* <Headings title="" content="An Overview of our Services"/> */}
         <div className={`${styles.mainSection}  grid`}>
           <Services />
         </div>
@@ -28,10 +28,10 @@ export default function Home() {
         <DetailedMotherServices />
       </div> */}
       <div className={`${styles.whyChooseWrapper} ${styles.radialBorder}`}>
-        <Headings
+        {/* <Headings
           title="CUSTOMER PROBLEM IS OUR PROBLEM"
           content="WHY CHOOSE US?"
-        />
+        /> */}
         <div className={styles.whyChooseContainer}>
           {whyChooseData.map((data, idx) => (
             <WhyChooseUs key={idx} title={data.title} content={data.content} icon={data.icon}/>
