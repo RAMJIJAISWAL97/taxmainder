@@ -12,15 +12,16 @@ export const Header = (props) => (
    * renders navbar with dynamic classes according to
    * link type. To change the navigations, look into Data/navData.json.
    */
-  <div className={`${styles.navbar}`}> 
-    {props.notification && <NotificationBar />  } 
-   
-    <div className="nav-area"> 
+  <div className={`${styles.navbar}`}>
+    {props.notification}
+
+    <div className="nav-area">
       <Link href="/">
         <a>
           <Logo />
         </a>
       </Link>
+      <NotificationBar/>
       <nav className={`text-right`}>
         <Drawer clicked={props.drawerToggleClicked}/>
         <ul className="menus">

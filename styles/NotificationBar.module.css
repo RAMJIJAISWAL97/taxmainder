@@ -1,16 +1,111 @@
-.notificationWrapper {
+/* .notificationWrapper {
     display: flex;
-    background-color: rgba(255, 255, 255, 0.67);
+    background-color: rgba(0, 0, 0, 0.67);
     height: auto;
-    padding: 1px 1px;
-    font-size: 1.0rem;
+    padding: 10px 5px;
+    font-size: 0.8rem;
     width: 100%;
-    color: #da1111;
+    color: #fff;
+} */
+
+.notificationContent {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
 }
 
-.myDiv {
-    border: 50px outset red;
-    background-color: rgb(230, 173, 176);
-    text-align: right;
-  }
-  
+.contactInfo {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.contactItem {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 6px 5px;
+    border-radius: 50px;
+    background-color: #1abc9c; /* Beautiful teal color for each contact item */
+    transition: all 0.3s ease;
+}
+
+.contactItem:hover {
+    background-color:  #1dbc1a; /* Darker shade of teal on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+.icon {
+    font-size: 24px; /* Larger icons */
+    color: white;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.icon:hover {
+    transform: rotate(15deg); /* Small rotation effect for fun */
+    color: #f39c12; /* Change icon color on hover */
+}
+
+.contactText {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.contactItem:hover .contactText {
+    color: #f39c12; /* Change text color when hovering over the contact item */
+    text-decoration: underline; /* Add underline effect on hover */
+}
+
+/* --------- Mobile Responsiveness --------- */
+
+@media (max-width: 768px) {
+    .notificationWrapper {
+        padding: 12px 15px;
+    }
+
+    .notificationContent {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center; /* Center align the items */
+        gap: 10px; /* Add space between the stacked items */
+    }
+
+    .contactInfo {
+        flex-direction: column; /* Stack the contact items vertically */
+        gap: 10px; /* Reduce the space between items */
+    }
+
+    .contactItem {
+        padding: 8px 16px; /* Adjust padding for smaller screens */
+        background-color: #16a085; /* Adjust background color for better contrast */
+    }
+
+    .icon {
+        font-size: 20px; /* Resize icons slightly for mobile view */
+    }
+
+    .contactText {
+        font-size: 14px; /* Smaller text size for mobile */
+        letter-spacing: 0.8px; /* Adjust letter spacing */
+    }
+}
+
+@media (max-width: 480px) {
+    .notificationWrapper {
+        padding: 10px 10px; /* Less padding for extra small screens */
+    }
+
+    .contactItem {
+        padding: 6px 12px; /* Adjust padding for ultra-small screens */
+    }
+
+    .icon {
+        font-size: 18px; /* Smaller icons for very small screens */
+    }
+
+    .contactText {
+        font-size: 13px; /* Smaller text for very small screens */
+    }
+}

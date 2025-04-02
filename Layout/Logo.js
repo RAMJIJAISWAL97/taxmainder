@@ -4,7 +4,7 @@ export default function Logo() {
   return (
     <div>
       <picture className={styles.logo}>
-        <img src="img/logo.png" alt="Logo" />
+        <img src="img/gst_seva_in.png" alt="Logo" />
       </picture>
     </div>
   );
