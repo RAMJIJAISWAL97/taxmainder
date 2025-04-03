@@ -1,11 +1,11 @@
-// import Headings from "components/Headings";
+import Headings from "components/Headings";
 import DetailedMotherServices from "components/Home/DetailedMotherServices";
 import Services from "components/Home/Services";
 import Footer from "Layout/Footer";
 import { Header } from "Layout/Header";
 import Layout from "Layout/Layout";
 import styles from "styles/Home.module.css";
-// import { whyChooseData } from "Data/whyChooseData.js";
+import { whyChooseData } from "Data/whyChooseData.js";
 import WhyChooseUs from "components/Home/WhyChooseUs";
 import { ParallaxBanner } from "react-scroll-parallax";
 import Counter from "components/Home/Counter";
@@ -28,15 +28,15 @@ export default function Home() {
         <DetailedMotherServices />
       </div> */}
       <div className={`${styles.whyChooseWrapper} ${styles.radialBorder}`}>
-        {/* <Headings
+        <Headings
           title="CUSTOMER PROBLEM IS OUR PROBLEM"
           content="WHY CHOOSE US?"
-        /> */}
-        {/* <div className={styles.whyChooseContainer}>
+        />
+        <div className={styles.whyChooseContainer}>
           {whyChooseData.map((data, idx) => (
             <WhyChooseUs key={idx} title={data.title} content={data.content} icon={data.icon}/>
           ))}
-        </div> */}
+        </div>
       </div>
       <ParallaxBanner
         layers={[

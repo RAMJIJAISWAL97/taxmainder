@@ -30,7 +30,7 @@
     ]
   },
   {
-    "title": "Governement Registration",
+    "title": "Registration",
     "path": "/career",
     "submenu":[
       {
@@ -64,7 +64,7 @@
     ]
   },
   {
-    "title": "IPR (Intellectual Proprty Right)",
+    "title": "Intellectual Proprty Right",
     "path": "/about-us",
     "submenu":[
       {

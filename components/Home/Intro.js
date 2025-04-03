@@ -1,5 +1,4 @@
-import React, { Component } from "react"; // requires a loader
-import { Carousel } from "react-responsive-carousel";
+import React, { useState, useEffect } from "react";
 import SimpleImageSlider from "react-simple-image-slider";
 
 const images = [
@@ -12,17 +11,36 @@ const images = [
   { url: "/img/limited_liability_parterneship.jpg" },
 ];
 
-
 export default function Intro() {
+  const [sliderSize, setSliderSize] = useState({ width: "100%", height: "60vh" });
+
+  useEffect(() => {
+    const updateSize = () => {
+      if (window.innerWidth < 768) {
+        setSliderSize({ width: "100%", height: "40vh" }); // Mobile adjustments
+      } else {
+        setSliderSize({ width: "90%", height: "70vh" }); // Laptop adjustments
+      }
+    };
+
+    updateSize();
+    window.addEventListener("resize", updateSize);
+
+    return () => window.removeEventListener("resize", updateSize);
+  }, []);
+
   return (
-    <div>
+    <div style={{ width: "100%", display: "flex", justifyContent: "center", overflow: "hidden" }}>
       <SimpleImageSlider
-        width="100%"
-        height={"87vh"}
+        width={sliderSize.width}
+        height={sliderSize.height}
         images={images}
         showBullets={true}
         showNavs={true}
         autoPlay
+        useGPURender={true}
+        bgColor="transparent"
+        style={{ objectFit: "contain" }}
       />
     </div>
   );
