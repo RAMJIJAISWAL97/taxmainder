@@ -9,21 +9,19 @@ export default function BabyCare() {
     <Layout header footer notification>
       <div className={styles.container}>
         <picture>
-          We are hiring.
+          <h1>We are hiring.</h1>
         </picture>
-        <div className={styles.content}>
-          <h1>Nanny Sitter Service</h1>
-        </div>
       </div>
       <div className={styles.wrapper}>
         <div className={styles.leftContent}>
           <h4>We are hiring across multiple role in legal and accounting domain!!</h4>
           <p>
-            Please share your resume with us we will contact you shortly.
+            Please share your resume @ <h2>taxmainder@gmail.com</h2> with us we will contact you shortly.
           </p>
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf7gHzkmY1N0Sx7PkOMdHlXvMTAkKdL0FRixUJIEj8BUnTCmw/viewform?embedded=true" width="640" height="956" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
+          {/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf7gHzkmY1N0Sx7PkOMdHlXvMTAkKdL0FRixUJIEj8BUnTCmw/viewform?embedded=true" 
+          width="640" height="956" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe> */}
           <div className={styles.miniContent}>
-            <div className={`${styles.left} ${styles.flex1}`}>
+            {/* <div className={`${styles.left} ${styles.flex1}`}>
               <h4>Responsibility of Nanny:</h4>
                 <ul>
                     1. Organize Interesting activities and education games for childres.
@@ -38,7 +36,7 @@ export default function BabyCare() {
                 <ul>
                     4. Take responsibility of your child while going inside and outside of home.
                 </ul>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="links">

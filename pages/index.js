@@ -27,7 +27,7 @@ export default function Home() {
       {/* <div className={`${styles.detailedMotherServices}`}>
         <DetailedMotherServices />
       </div> */}
-      <div className={`${styles.whyChooseWrapper} ${styles.radialBorder}`}>
+      {/* <div className={`${styles.whyChooseWrapper} ${styles.radialBorder}`}>
         <Headings
           title="CUSTOMER PROBLEM IS OUR PROBLEM"
           content="WHY CHOOSE US?"
@@ -37,7 +37,7 @@ export default function Home() {
             <WhyChooseUs key={idx} title={data.title} content={data.content} icon={data.icon}/>
           ))}
         </div>
-      </div>
+      </div> */}
       <ParallaxBanner
         layers={[
           { image: "/img/choose_us.jpg", speed: -10 },
@@ -85,7 +85,7 @@ export default function Home() {
           <Counter key={count.id} data={count} />
         ))}
       </div>
-      <Testimonials />
+      {/* <Testimonials /> */}
     </Layout>
   );
 }

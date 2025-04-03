@@ -34,11 +34,11 @@ export default function ContactUs() {
       form;
     if (
       FirstName === "" ||
-      LastName === "" ||
-      Email === "" ||
+      // LastName === "" ||
+      // Email === "" ||
       Phone === "" ||
-      Service === "" ||
-      Location === "" ||
+      // Service === "" ||
+      // Location === "" ||
       Message === ""
     ) {
       setError("Please fill all the mandatory fields marked with (*) ");
@@ -72,7 +72,7 @@ export default function ContactUs() {
           <TextField
             required
             id="outlined-required"
-            label="First Name"
+            label="Name"
             name="FirstName"
             className={styles.input}
             value={form.FirstName}
@@ -81,14 +81,23 @@ export default function ContactUs() {
           <TextField
             required
             id="outlined-disabled"
+            label="Phone"
+            name="Phone"
+            value={form.Phone}
+            className={styles.input}
+            onChange={handleFormDetails}
+          />
+          {/* <TextField
+            required
+            id="outlined-disabled"
             label="Last Name"
             name="LastName"
             className={styles.input}
             value={form.LastName}
             onChange={handleFormDetails}
-          />
+          /> */}
         </div>
-        <div>
+        {/* <div>
           <TextField
             required
             id="outlined-required"
@@ -107,8 +116,8 @@ export default function ContactUs() {
             className={styles.input}
             onChange={handleFormDetails}
           />
-        </div>
-        <div>
+        </div> */}
+        {/* <div>
           <TextField
             required
             id="outlined-required"
@@ -127,7 +136,7 @@ export default function ContactUs() {
             className={styles.input}
             onChange={handleFormDetails}
           />
-        </div>
+        </div>  */}
       </Box>
       <Box
         component="form"
