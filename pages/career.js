@@ -112,7 +112,7 @@ export default function Career() {
       <section className={styles.hero}>
         <div className={styles.heroContent}>
           <h1>Build Your Career With Us</h1>
-          <p>Join India's fastest-growing business services company and transform your career journey</p>
+          <p>Join India&apos;s fastest-growing business services company and transform your career journey</p>
           <a href="#positions" className={styles.ctaButton}>View Open Positions</a>
         </div>
       </section>
@@ -122,7 +122,7 @@ export default function Career() {
         <div className={styles.container}>
           <h2 className={styles.sectionTitle}>Why Join GST Seva?</h2>
           <p style={{ textAlign: 'center', fontSize: '1.2rem', color: '#666', maxWidth: '800px', margin: '0 auto 3rem' }}>
-            We're not just offering jobs – we're building careers. Be part of a team that's revolutionizing 
+            We&apos;re not just offering jobs – we&apos;re building careers. Be part of a team that&apos;s revolutionizing 
             business services in India with cutting-edge technology and exceptional client service.
           </p>
           
@@ -229,7 +229,7 @@ export default function Career() {
           <h2 style={{ fontSize: '2rem', marginBottom: '1rem' }}>Ready to Start Your Journey?</h2>
           <p style={{ fontSize: '1.2rem', color: '#666', marginBottom: '2rem', maxWidth: '600px', margin: '0 auto 2rem' }}>
             Have questions about our open positions or want to learn more about working at GST Seva? 
-            We'd love to hear from you!
+            We&apos;d love to hear from you!
           </p>
           <div style={{ display: 'flex', justifyContent: 'center', gap: '2rem', flexWrap: 'wrap' }}>
             <a href="mailto:GSTSeva@gmail.com" className={styles.ctaButton}>

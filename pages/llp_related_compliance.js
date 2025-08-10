@@ -204,7 +204,7 @@ export default function LLPCompliance() {
         <div className={styles.container}>
           <h2 style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>Ready to Ensure LLP Compliance?</h2>
           <p style={{ fontSize: '1.2rem', marginBottom: '2rem', maxWidth: '600px', margin: '0 auto 2rem', opacity: 0.9 }}>
-            Don't let compliance issues affect your business. Get expert help today!
+            Don&apos;t let compliance issues affect your business. Get expert help today!
           </p>
           <div className={styles.contactButtons}>
             <a href="mailto:GSTSeva@gmail.com" className={styles.contactButton}>
