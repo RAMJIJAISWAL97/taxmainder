@@ -53,7 +53,7 @@ export default function Home() {
             <div className={styles.sideContentContainer}>
               <h4>Expert in industry</h4>
               <p>
-              Expert at Taxmainder are highly qualified and having 7+ years of professional experience in Business Registration, IPR, Government Registration, Compliance, Tax and Accounting Services etc. 
+              Expert at GSTSeva are highly qualified and having 7+ years of professional experience in Business Registration, IPR, Government Registration, Compliance, Tax and Accounting Services etc. 
               </p>
               <h5>Experience makes a person Expert.</h5>
             </div>
