@@ -58,7 +58,7 @@ export default function BabyCare() {
             </ol>
           </p>
 
-          <h4> Why Choose Taxmainder for FSSAI Registration? </h4>
+          <h4> Why Choose GSTSeva for FSSAI Registration? </h4>
           <p>
             <ol>
               <li>
@@ -75,7 +75,7 @@ export default function BabyCare() {
               <p> We offer competitive pricing for our FSSAI registration services, ensuring that you get the best value for your money. </p>
             </ol>
           </p>
-          <p>Getting your FSSAI registration is crucial for starting or running a food business in India. With Expert of taxmainder services, you can obtain your FSSAI license hassle-free and ensure that your food products meet the safety and quality standards set by the regulatory authority. Contact us today to get started!</p>
+          <p>Getting your FSSAI registration is crucial for starting or running a food business in India. With Expert of GSTSeva services, you can obtain your FSSAI license hassle-free and ensure that your food products meet the safety and quality standards set by the regulatory authority. Contact us today to get started!</p>
         </div>
 
         <div className="links">
@@ -84,7 +84,7 @@ export default function BabyCare() {
             {babyCareServices.map((data, idx) => (
               <li key={idx}>
                 <Link href={data.href}>
-                  <a>{data.title}</a>
+                  {data.title}
                 </Link>
               </li>
             ))}

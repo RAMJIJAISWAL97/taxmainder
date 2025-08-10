@@ -95,17 +95,17 @@ export default function AboutUs() {
           <ul>
             <li>
               <Link href="">
-                <a>About Us</a>
+                About Us
               </Link>
             </li>
             <li>
               <Link href="">
-                <a>Mission & Vision</a>
+                Mission & Vision
               </Link>
             </li>
             <li>
               <Link href="">
-                <a>Who Are Our Care Specialist?</a>
+                Who Are Our Care Specialist?
               </Link>
             </li>
           </ul>

@@ -97,7 +97,7 @@ export default function BabyCare() {
             {babyCareServices.map((data, idx) => (
               <li key={idx}>
                 <Link href={data.href}>
-                  <a>{data.title}</a>
+                  {data.title}
                 </Link>
               </li>
             ))}

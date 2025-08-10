@@ -1,51 +1,80 @@
 .footer {
-    background-color: #252525;
-    color: #fff;
-    padding: 1px 0px 20px 5px;
-    display:grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(1rem, 50%), 1fr));
-    justify-content:left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px 16px;
+  background: #222;
+  color: #fff;
 }
 
 .about {
-    max-width: 250px;
+  flex: 0.6 0.6 150px;
+  min-width: 150px;
+  color: #ffae00;
+}
+
+.footerLinks {
+  flex: 0.6 0.6 150px;
+  min-width: 150px;
+}
+
+.footerLinks h3 a {
+  color: #7fff00;
+  font-size: 0.6em;
+}
+
+.footerLinks h3 b,
+.email {
+  color: #ff69b4;
+  font-size: 0.6em;
+}
+
+.phone {
+  color: #ff69b4;
+}
+
+.whatsapp {
+  color: #7fff00;
+}
+
+.footerLinks h3 {
+  color: #fff;
+  margin-bottom: 6px;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.footerLinks a {
+  color: #2a2aff;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  font-size: 0.8em;
+  word-break: break-word;
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 900px) {
+  .footer {
     flex-direction: column;
-}
-
-.footer_link {
-    line-height: 1.0em;
-    font-weight: 20;
-    font-size: 16px;
-    color: rgb(247, 23, 161);
-}
-
-.about p {
-    line-height: 1.5em;
-    font-weight: 20;
-    font-size: 16px;
-    color: rgb(26, 243, 6);
-}
-
-.links {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-}
-
-.links a {
-    margin: 4px;
-    font-size: 16px;
-    color:rgb(49, 4, 250)
-}
-
-@media screen and (min-width: 800px) and (max-width: 1200px) {
-    .footer {
-        grid-template-columns: repeat(auto-fill, minmax(min(20rem, 100%), 1fr))
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .footer {
-        grid-template-columns: repeat(auto-fill, minmax(min(18rem, 100%), 1fr))
-    }
+    gap: 0;
+    padding: 8px 4px;
+  }
+  .about, .footerLinks {
+    min-width: unset;
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  .footerLinks h3 {
+    font-size: 0.8em;
+  }
+  .about h3 {
+    font-size: 0.6em;
+  }
+  .footerLinks a {
+    font-size: 0.8em;
+  }
 }
