@@ -1,30 +1,272 @@
 import Headings from "components/Headings";
 import Layout from "Layout/Layout";
 import Link from "next/link";
-import styles from "styles/About.module.css";
-import babyCareServices from "Data/babyCareServices.json";
+import { useState } from "react";
+import styles from "styles/Contact.module.css";
 
-export default function BabyCare() {
+export default function ContactUs() {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    service: '',
+    message: ''
+  });
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Handle form submission here
+    alert('Thank you for your inquiry! We will get back to you soon.');
+  };
+
+  const services = [
+    "GST Registration",
+    "Company Registration",
+    "Trademark Registration",
+    "Income Tax Filing",
+    "Import Export Code",
+    "FSSAI Registration",
+    "ISO Certification",
+    "Other Services"
+  ];
+
   return (
     <Layout header footer notification>
-      <div className={styles.container}>
-
-        <picture>
-          <img
-            src="/img/trademark_objection.jpg"
-            alt="kids"
-            className={styles.img}
-          />
-        </picture>
-        <div className={styles.footer_link}>
-            <h3>
-              <a rel="noreferrer" data-ux-btn="external" customborderwidth="small" data-ux="ButtonExternal" href="https://wa.me/919999310415" target="_blank" data-aid="CONTACT_INFO_WHATS_APP_REND" data-tccl="ux2.contact.whatsapp.click,click" icon="whatsApp" data-typography="false" className="x-el x-el-a c1-9q c1-j c1-2s c1-9r c1-9s c1-7q c1-9t c1-1j c1-30 c1-28 c1-29 c1-2a c1-2b c1-9u c1-9v c1-9w c1-9x c1-9y c1-9z c1-27 c1-a0 c1-1n c1-1o c1-23 c1-25 c1-24 c1-t c1-5l c1-a1 c1-4h c1-2p c1-a2 c1-a3 c1-1 c1-2 c1-a4 c1-a5 c1-a6 c1-a7 c1-a8 c1-a9 c1-aa c1-ab c1-ac c1-ad c1-ae"><span data-ux="Element" className="x-el x-el-span c1-j c1-9r c1-t c1-af c1-5a c1-21 c1-22"><span data-ux="Element" className="x-el x-el-span c1-ag c1-ah c1-32 c1-ai c1-33 c1-aj c1-3f c1-ak c1-al c1-9r c1-j"><svg viewBox="0 0 24 24" fill="currentColor" width="24px" height="24px" data-ux="Icon" className="x-el x-el-svg c1-3q c1-1q c1-3t c1-9r c1-j"><svg viewBox="0 0 496 497"><defs><linearGradient id="a" x1="247.32" x2="247.32" y1="446.09" y2="39.9" gradientUnits="userSpaceOnUse"><stop offset="0" stopColor="#20b038"></stop><stop offset="1" stopColor="#60d66a"></stop></linearGradient><linearGradient id="b" x1="247.32" x2="247.32" y1="453.37" y2="32.61" gradientUnits="userSpaceOnUse"><stop offset="0" stopColor="#f9f9f9"></stop><stop offset="1" stopColor="#fff"></stop></linearGradient></defs><path d="M37.88 453.37l29.59-108A208 208 0 0 1 39.63 241.1c0-115 93.6-208.49 208.56-208.49a208.57 208.57 0 0 1 208.57 208.66c-.05 115-93.62 208.49-208.57 208.49h-.08a208.41 208.41 0 0 1-99.67-25.38zm115.68-66.73l6.34 3.75a173.18 173.18 0 0 0 88.23 24.16h.06c95.55 0 173.31-77.75 173.35-173.3A173.34 173.34 0 0 0 248.26 67.83c-95.62 0-173.38 77.73-173.42 173.28a172.94 172.94 0 0 0 26.5 92.23l4.13 6.55L88 403.84z"></path><path fill="url(#a)" d="M45.13 446.09l28.57-104.3a200.82 200.82 0 0 1-26.88-100.62c0-111 90.36-201.27 201.34-201.27A201.35 201.35 0 0 1 449.5 241.32c0 111-90.37 201.28-201.33 201.28h-.09a201.31 201.31 0 0 1-96.21-24.49z"></path><path fill="url(#b)" d="M37.88 453.37l29.59-108A208 208 0 0 1 39.63 241.1c0-115 93.6-208.49 208.56-208.49a208.57 208.57 0 0 1 208.57 208.66c-.05 115-93.62 208.49-208.57 208.49h-.08a208.41 208.41 0 0 1-99.67-25.38zm115.68-66.73l6.34 3.75a173.18 173.18 0 0 0 88.23 24.16h.06c95.55 0 173.31-77.75 173.35-173.3A173.34 173.34 0 0 0 248.26 67.83c-95.62 0-173.38 77.73-173.42 173.28a172.94 172.94 0 0 0 26.5 92.23l4.13 6.55L88 403.84z"></path><path fill="#fff" d="M196.07 153.94c-3.91-8.68-8-8.85-11.73-9-3-.14-6.51-.13-10-.13a19.15 19.15 0 0 0-13.89 6.52c-4.78 5.22-18.24 17.82-18.24 43.46s18.67 50.42 21.28 53.9 36.05 57.77 89 78.66c44 17.36 53 13.91 62.53 13s30.83-12.61 35.18-24.78 4.34-22.59 3-24.77-4.78-3.48-10-6.08-30.83-15.22-35.61-16.95-8.25-2.61-11.73 2.61-13.45 16.94-16.5 20.42-6.08 3.92-11.29 1.31-22-8.11-41.9-25.86c-15.5-13.82-26-30.87-29-36.09s-.32-8 2.29-10.63c2.34-2.34 5.21-6.09 7.82-9.13s3.47-5.21 5.21-8.69.87-6.52-.44-9.13-11.35-28.34-15.98-38.64z"></path></svg></svg></span><span data-ux="Element" className="x-el x-el-span iconText c1-j c1-9r c1-4f c1-1o c1-am c1-5a c1-21 c1-22">+919999310415</span></span></a>
-            </h3>
-            <h3> <a href="tel:+911143108573" className="phone-icon"><i className="fa fa-phone"></i>+911143108573</a></h3>  
-            <h3><b>taxmainder@gmail.com</b></h3>
+      <div className={styles.contactContainer}>
+        {/* Hero Section */}
+        <section className={styles.heroSection}>
+          <div className={styles.heroContent}>
+            <h1 className={styles.heroTitle}>Get In Touch</h1>
+            <p className={styles.heroSubtitle}>
+              Ready to start your business journey? We&apos;re here to help you every step of the way.
+            </p>
           </div>
+          <div className={styles.heroVisual}>
+            <div className={styles.floatingCard}>
+              <i className="fas fa-rocket"></i>
+              <span>Fast & Reliable</span>
+            </div>
+            <div className={styles.floatingCard}>
+              <i className="fas fa-shield-alt"></i>
+              <span>100% Secure</span>
+            </div>
+            <div className={styles.floatingCard}>
+              <i className="fas fa-clock"></i>
+              <span>24/7 Support</span>
+            </div>
+          </div>
+        </section>
+
+        {/* Contact Form Section */}
+        <section className={styles.contactSection}>
+          <div className={styles.contactGrid}>
+            {/* Contact Form */}
+            <div className={styles.formContainer}>
+              <div className={styles.formHeader}>
+                <h2>Send us a Message</h2>
+                <p>Fill out the form below and we&apos;ll get back to you within 24 hours</p>
+              </div>
+              
+              <form onSubmit={handleSubmit} className={styles.contactForm}>
+                <div className={styles.formRow}>
+                  <div className={styles.inputGroup}>
+                    <label htmlFor="name">Full Name *</label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      value={formData.name}
+                      onChange={handleChange}
+                      required
+                      placeholder="Enter your full name"
+                      className={styles.inputField}
+                    />
+                  </div>
+                  
+                  <div className={styles.inputGroup}>
+                    <label htmlFor="email">Email Address *</label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      value={formData.email}
+                      onChange={handleChange}
+                      required
+                      placeholder="Enter your email"
+                      className={styles.inputField}
+                    />
+                  </div>
+                </div>
+
+                <div className={styles.formRow}>
+                  <div className={styles.inputGroup}>
+                    <label htmlFor="phone">Phone Number *</label>
+                    <input
+                      type="tel"
+                      id="phone"
+                      name="phone"
+                      value={formData.phone}
+                      onChange={handleChange}
+                      required
+                      placeholder="+91 99999 99999"
+                      className={styles.inputField}
+                    />
+                  </div>
+                  
+                  <div className={styles.inputGroup}>
+                    <label htmlFor="service">Service Required *</label>
+                    <select
+                      id="service"
+                      name="service"
+                      value={formData.service}
+                      onChange={handleChange}
+                      required
+                      className={styles.selectField}
+                    >
+                      <option value="">Select a service</option>
+                      {services.map((service, index) => (
+                        <option key={index} value={service}>{service}</option>
+                      ))}
+                    </select>
+                  </div>
+                </div>
+
+                <div className={styles.inputGroup}>
+                  <label htmlFor="message">Message *</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    value={formData.message}
+                    onChange={handleChange}
+                    required
+                    placeholder="Tell us about your requirements..."
+                    rows="5"
+                    className={styles.textareaField}
+                  />
+                </div>
+
+                <button type="submit" className={styles.submitButton}>
+                  <span>Send Message</span>
+                  <i className="fas fa-paper-plane"></i>
+                </button>
+              </form>
+            </div>
+
+            {/* Contact Info */}
+            <div className={styles.contactInfo}>
+              <div className={styles.infoCard}>
+                <div className={styles.infoHeader}>
+                  <h3>Contact Information</h3>
+                  <p>Multiple ways to reach us</p>
+                </div>
+
+                <div className={styles.contactMethods}>
+                  <div className={styles.contactMethod}>
+                    <div className={styles.iconWrapper}>
+                      <i className="fas fa-phone-alt"></i>
+                    </div>
+                    <div className={styles.methodDetails}>
+                      <h4>Phone Support</h4>
+                      <p>Available 9 AM - 6 PM</p>
+                      <a href="tel:+919999310415" className={styles.contactLink}>
+                        +91 99993 10415
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className={styles.contactMethod}>
+                    <div className={styles.iconWrapper}>
+                      <i className="fas fa-envelope"></i>
+                    </div>
+                    <div className={styles.methodDetails}>
+                      <h4>Email Support</h4>
+                      <p>Response within 2 hours</p>
+                      <a href="mailto:taxmainder@gmail.com" className={styles.contactLink}>
+                        taxmainder@gmail.com
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className={styles.contactMethod}>
+                    <div className={styles.iconWrapper}>
+                      <i className="fab fa-whatsapp"></i>
+                    </div>
+                    <div className={styles.methodDetails}>
+                      <h4>WhatsApp</h4>
+                      <p>Instant messaging support</p>
+                      <a href="https://wa.me/919999310415" className={styles.contactLink}>
+                        Chat on WhatsApp
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className={styles.contactMethod}>
+                    <div className={styles.iconWrapper}>
+                      <i className="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div className={styles.methodDetails}>
+                      <h4>Office Address</h4>
+                      <p>Visit us for consultation</p>
+                      <span className={styles.address}>
+                        Delhi, India
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Business Hours */}
+                <div className={styles.businessHours}>
+                  <h4>Business Hours</h4>
+                  <div className={styles.hoursGrid}>
+                    <div className={styles.day}>
+                      <span>Monday - Friday</span>
+                      <span>9:00 AM - 6:00 PM</span>
+                    </div>
+                    <div className={styles.day}>
+                      <span>Saturday</span>
+                      <span>9:00 AM - 2:00 PM</span>
+                    </div>
+                    <div className={styles.day}>
+                      <span>Sunday</span>
+                      <span>Closed</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Trust Indicators */}
+        <section className={styles.trustSection}>
+          <div className={styles.trustGrid}>
+            <div className={styles.trustItem}>
+              <i className="fas fa-users"></i>
+              <h3>5000+</h3>
+              <p>Happy Clients</p>
+            </div>
+            <div className={styles.trustItem}>
+              <i className="fas fa-award"></i>
+              <h3>10+</h3>
+              <p>Years Experience</p>
+            </div>
+            <div className={styles.trustItem}>
+              <i className="fas fa-clock"></i>
+              <h3>24/7</h3>
+              <p>Support Available</p>
+            </div>
+            <div className={styles.trustItem}>
+              <i className="fas fa-shield-alt"></i>
+              <h3>100%</h3>
+              <p>Secure & Confidential</p>
+            </div>
+          </div>
+        </section>
       </div>
-      
     </Layout>
   );
 }
