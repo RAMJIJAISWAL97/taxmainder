@@ -26,7 +26,7 @@ export default function BabyCare() {
           If you are looking to start a business that offers the flexibility of a partnership while protecting your personal assets, a Limited Liability Partnership (LLP) might be the right choice for you. An LLP is a hybrid business structure that combines the benefits of a partnership and a limited liability company (LLC). This means that each partner in the LLP is not personally liable for the debts and liabilities of the business.
           </p>
           <p>
-          At Taxmainder, we offer comprehensive LLP registration services to help you get your business up and running quickly and easily. Our team of experienced professionals will guide you through the entire process, from preparing and filing your LLP documents to obtaining your certificate of registration.
+          At GSTSeva, we offer comprehensive LLP registration services to help you get your business up and running quickly and easily. Our team of experienced professionals will guide you through the entire process, from preparing and filing your LLP documents to obtaining your certificate of registration.
           </p>
 
 

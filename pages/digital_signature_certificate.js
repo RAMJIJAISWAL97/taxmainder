@@ -31,7 +31,7 @@ export default function BabyCare() {
           <div className={styles.miniContent}>
             <div className={`${styles.left} ${styles.flex1}`}>
                 <h4>Our Digital Signature Certification Services</h4>
-                <p>At taxmainder, we offer digital signature certification services that are designed to meet the needs of businesses and individuals. Our services include</p>
+                <p>At GSTSeva, we offer digital signature certification services that are designed to meet the needs of businesses and individuals. Our services include</p>
                 <ol>
                   <li> Digital Signature Certificates
 
@@ -104,7 +104,7 @@ export default function BabyCare() {
             </div>
           </div>
             <p> 
-            At taxmainder, we provide digital signature certification services that are trusted, reliable, and compliant with industry standards. Contact us today to learn more about our services and how we can help you secure your electronic transactions.
+            At GSTSeva, we provide digital signature certification services that are trusted, reliable, and compliant with industry standards. Contact us today to learn more about our services and how we can help you secure your electronic transactions.
             </p>
           </div>
         <div className="links">

@@ -21,9 +21,9 @@ export default function BabyCare() {
       </div>
       <div className={styles.wrapper}>
         <div className={styles.leftContent}>
-          <h4>Your Welcome to Taxmainder </h4>
+          <h4>Your Welcome to GSTSeva </h4>
           <p>
-          Welcome to Taxmainder, your one-stop-shop for private company registration services. We understand that starting a business can be a complex process, which is why we offer a range of services to help simplify the private company registration process and get your business up and running.
+          Welcome to GSTSeva, your one-stop-shop for private company registration services. We understand that starting a business can be a complex process, which is why we offer a range of services to help simplify the private company registration process and get your business up and running.
           <br></br>
           Our team of experienced professionals can provide you with the guidance and support you need to register your private company quickly and efficiently. Whether you are looking to incorporate a new company, or need to update your existing company registration details, we have the expertise and knowledge to help you achieve your goals.
           </p>
@@ -61,8 +61,8 @@ export default function BabyCare() {
         </div>
         <div className={styles.miniContent}>
             <div className={`${styles.left} ${styles.flex1}`}>
-            <h4>Why Choose Taxmainder for Private Company Registration?</h4>
-            <p>At Taxmainder, we are committed to providing our clients with the highest level of service and support throughout the private company registration process. Here are just a few reasons why you should choose us: </p>
+            <h4>Why Choose GSTSeva for Private Company Registration?</h4>
+            <p>At GSTSeva, we are committed to providing our clients with the highest level of service and support throughout the private company registration process. Here are just a few reasons why you should choose us: </p>
               <ol>
                 <h4><li>Experienced Professionals</li></h4>
                   <p>Our team of experienced professionals has helped numerous businesses register their private companies, and we have the expertise and knowledge to guide you through every step of the process.</p>

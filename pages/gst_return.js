@@ -123,7 +123,7 @@ export default function BabyCare() {
               </div>
           </div>
                   
-        <p> At Taxmainder, we provide patent registration services to help you protect your intellectual property and obtain exclusive rights to your invention. Contact us today to learn more about our services and how we can help you secure your patent.</p>
+        <p> At GSTSeva, we provide patent registration services to help you protect your intellectual property and obtain exclusive rights to your invention. Contact us today to learn more about our services and how we can help you secure your patent.</p>
 
         </div>
 

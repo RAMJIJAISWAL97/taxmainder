@@ -130,7 +130,7 @@ export default function BabyCare() {
           </div>
 
           <p> 
-            At Taxmainder, we understand the challenges of staying compliant with the ever-changing regulatory landscape. That is why we offer a comprehensive range of compliance and other services to help you manage your obligations and protect your business. Contact us today to learn more about how we can help you.
+            At GSTSeva, we understand the challenges of staying compliant with the ever-changing regulatory landscape. That is why we offer a comprehensive range of compliance and other services to help you manage your obligations and protect your business. Contact us today to learn more about how we can help you.
         </p>
 
         </div>

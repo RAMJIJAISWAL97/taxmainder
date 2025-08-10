@@ -23,7 +23,7 @@ export default function BabyCare() {
         <div className={styles.leftContent}>
             <h4>Something about Personal Security Officer Service</h4>
             <p>
-            At Taxmainder, we offer a comprehensive range of registration services to help businesses and individuals comply with regulatory requirements and start their operations smoothly.
+            At GSTSeva, we offer a comprehensive range of registration services to help businesses and individuals comply with regulatory requirements and start their operations smoothly.
             From company registration to GST registration, we provide expert guidance and support throughout the registration process, ensuring that our clients are fully compliant with applicable laws and regulations.
             </p>
 
@@ -75,7 +75,7 @@ export default function BabyCare() {
             </div>
           </div>
           <p>
-            At Taxmainder, we offer all types of registration services in India, providing expert guidance and support to help you comply with regulatory requirements and start your operations smoothly. Contact us today to learn more about our services and how we can help you.
+            At GSTSeva, we offer all types of registration services in India, providing expert guidance and support to help you comply with regulatory requirements and start your operations smoothly. Contact us today to learn more about our services and how we can help you.
             </p>
         </div>
         <div className="links">

@@ -26,7 +26,7 @@ export default function BabyCare() {
             <div className={`${styles.left} ${styles.flex1}`}>
               <h2><li>Welcome</li></h2>
               <p>
-              Welcome to Taxmainder, where we specialize in providing top-notch public company registration services. 
+              Welcome to GSTSeva, where we specialize in providing top-notch public company registration services. 
               Going public can be a major milestone for a company, offering access to new capital, increased visibility and credibility,
                and expanded opportunities for growth and expansion. However, the process can be complex and overwhelming, with a range of legal 
                and regulatory requirements to navigate. That is where we come in. Our experienced team of professionals is here to guide you through
@@ -44,7 +44,7 @@ export default function BabyCare() {
               conducting a roadshow, and issuing and selling securities to the public.
               </p>
               <p>
-              At Taxmainder, we understand the challenges involved in going public, and we have the experience and expertise to guide you 
+              At GSTSeva, we understand the challenges involved in going public, and we have the experience and expertise to guide you 
               through every step of the process. From preparing your registration statement to conducting due diligence and negotiating with underwriters,
                we are here to help you achieve your goals and maximize the potential of your business.
               </p>
@@ -126,7 +126,7 @@ export default function BabyCare() {
               </ol>
               <h3>
 
-              At Taxmainder, we understand the potential benefits of going public and can help you navigate the complex process of public 
+              At GSTSeva, we understand the potential benefits of going public and can help you navigate the complex process of public 
               company registration. Our experienced professionals can provide guidance on the benefits and risks of going public, develop a 
               comprehensive plan for public company registration, and support you throughout the process to ensure a successful transition 
               to public company status.

@@ -112,7 +112,7 @@ export default function BabyCare() {
               </div>
           </div>
                   
-        <p> If you have decided to close your company, it is important to understand the legal requirements and procedures involved. Failing to follow the proper steps can result in penalties and legal consequences. At Taxmainder, we provide professional and reliable company closure services to make the process smooth and hassle-free.</p>
+        <p> If you have decided to close your company, it is important to understand the legal requirements and procedures involved. Failing to follow the proper steps can result in penalties and legal consequences. At GSTSeva, we provide professional and reliable company closure services to make the process smooth and hassle-free.</p>
         <p>Closing a company can be a complex and time-consuming process, but with our professional assistance, you can be assured of a smooth and hassle-free closure. Contact us today to learn more about our company closure services and how we can help you. </p>
         </div>
 

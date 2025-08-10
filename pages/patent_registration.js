@@ -99,7 +99,7 @@ export default function BabyCare() {
               <div className={`${styles.left} ${styles.flex1}`}>
                 <h4>Our Services</h4>
                 <p>
-                At Taxmainder, we provide patent registration services to help inventors and businesses protect their intellectual property and obtain exclusive rights to their inventions. Our patent registration services cover a wide range of industries, from technology and software to healthcare and manufacturing.
+                At GSTSeva, we provide patent registration services to help inventors and businesses protect their intellectual property and obtain exclusive rights to their inventions. Our patent registration services cover a wide range of industries, from technology and software to healthcare and manufacturing.
                 </p>
                 <h4>Our Patent Registration Services:</h4>
                   <ol>
@@ -133,7 +133,7 @@ export default function BabyCare() {
               </div>
           </div>
                   
-        <p> At Taxmainder, we provide patent registration services to help you protect your intellectual property and obtain exclusive rights to your invention. Contact us today to learn more about our services and how we can help you secure your patent.</p>
+        <p> At GSTSeva, we provide patent registration services to help you protect your intellectual property and obtain exclusive rights to your invention. Contact us today to learn more about our services and how we can help you secure your patent.</p>
 
         </div>
 
