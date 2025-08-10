@@ -54,7 +54,9 @@ export default function Footer() {
             <ul className={styles.linkList}>
               {quickLinks_1.map((link, idx) => (
                 <li key={idx}>
-                  <Link href={link.href}>{link.content}</Link>
+                  <Link href={link.href} legacyBehavior>
+                    <a>{link.content}</a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -66,7 +68,9 @@ export default function Footer() {
             <ul className={styles.linkList}>
               {quickLinks_2.map((link, idx) => (
                 <li key={idx}>
-                  <Link href={link.href}>{link.content}</Link>
+                  <Link href={link.href} legacyBehavior>
+                    <a>{link.content}</a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -78,7 +82,9 @@ export default function Footer() {
             <ul className={styles.linkList}>
               {quickLinks_3.map((link, idx) => (
                 <li key={idx}>
-                  <Link href={link.href}>{link.content}</Link>
+                  <Link href={link.href} legacyBehavior>
+                    <a>{link.content}</a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -90,7 +96,9 @@ export default function Footer() {
             <ul className={styles.linkList}>
               {quickLinks_4.map((link, idx) => (
                 <li key={idx}>
-                  <Link href={link.href}>{link.content}</Link>
+                  <Link href={link.href} legacyBehavior>
+                    <a>{link.content}</a>
+                  </Link>
                 </li>
               ))}
             </ul>
